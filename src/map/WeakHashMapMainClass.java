@@ -13,11 +13,11 @@ public class WeakHashMapMainClass {
         System.out.println(m);
         t = null;
         System.gc();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         System.out.println(m);
     }
 }
